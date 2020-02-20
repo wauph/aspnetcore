@@ -44,7 +44,7 @@ namespace Microsoft.AspNetCore.Components.WebAssembly.DevServer.Server
             app.UseResponseCompression();
             EnableConfiguredPathbase(app, configuration);
 
-            app.UseBlazorDebugging();
+            app.UseWebAssemblyDebugging();
 
             app.UseStaticFiles();
 
